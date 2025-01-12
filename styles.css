@@ -2,8 +2,8 @@ body {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
-    #a5a58d 25%,
-    #6b705c 75%
+    #a5a58d 0%,
+    #6b705c 100%
   );
   background-repeat: no-repeat;
   height: 100%;
