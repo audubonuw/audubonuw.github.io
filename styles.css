@@ -2,9 +2,9 @@ body {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
-    #a5a58d 0%,
-    #6b705c 100%
-  );
+    #96A68E 0%,
+    #455D3B 100%
+  ); /*6b705c and a5a58d*/ 
   background-repeat: no-repeat;
   height: 100%;
 }
@@ -25,8 +25,8 @@ body {
   align-content: center;
   justify-content: center;
   color:rgb(235, 235, 235);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.25rem;
+  font-family: Constantia, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
 }
 
 .bodyText {
@@ -34,16 +34,19 @@ body {
   align-content: center;
   justify-content: center;
   text-align: center;
-  color:rgb(57, 57, 57);
+  color: white;
+  background-color: #8c3131; 
+  border: 2px white solid; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
+  font-size: 1rem; 
+  margin: 0px 40px; 
 }
 
 .tree {
   display: flex;
   align-content: center;
   justify-content: center;
-  border: 1px white solid;
+  border: 2px white solid;
   background-color: #8c3131;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -65,7 +68,7 @@ hr {
 }
 
 .link {
-  color: rgb(57, 57, 57);
+  color: white;
 }
 
 .link:hover {
@@ -77,7 +80,11 @@ hr {
   align-content: center;
   justify-content: center;
   height: 400px;
-  margin-top: 50px;
+  margin-top: 40px; 
+  margin-bottom: 13px; 
+  margin-right: 321px;
+  margin-left: 320px; 
+  box-shadow: 0 0 0 10px #8c3131, 0 0 0 12px white;  
 }
 
 .imageCredit {
@@ -114,7 +121,7 @@ footer {
   background: white;
   color: #8c3131;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 2px solid #8c3131;
+  border: 3px solid #8c3131;
 }
 
 .join-asum-container:hover {
