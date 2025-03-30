@@ -48,6 +48,45 @@ This example shows usage of the "p" command which creates a paragraph of text th
 allows for an entire line of text to be made bold, as well as the "b" command which makes a single item bold and the previously mentioned "a" command for creating hyperlinks.
 
 
+
 INFORMATION FOR STYLES.CSS: 
 
+This file connects to the content inputted to the index.html file through the "class" inputs. These classes relate to the cosmetics or appearance of the website, controlling the font, color, and shape of your content. Many of the functions in a .css file are flexible and can be modified to be as complex or as simple as you would like. There are many resources online that give great examples of how to generate a specific color or shape for your site. AI is often a very helpful tool in brainstorming ideas on how to give the site a certain look. 
 
+    body {
+      background: rgb(0, 0, 0);
+      background: linear-gradient(
+        0deg,
+        #96A68E 0%,
+        #455D3B 100%
+      ); /*6b705c and a5a58d*/ 
+      background-repeat: no-repeat;
+      height: 100%;
+      }
+
+The example above shows some of the inputs used to control the color of the background of the site. Colors are defined either by "background" or "color" with the rgb() command input, which allows you to set a ratio of color values that combine to make one color, or by inputting a colors HEX code, in this case the HEX is acting as an input to the linear-gradient command shown by #96A68E and #455D3B. You can search up a color wheel to select a color and they will typically give you the associated HEX code. There are also base colors that can be inputted by typing in their name, i.e. white, black, red, etc. 
+
+    .headerImageContainer {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      height: 200px;
+    }
+
+The above code shows the commands used to align the content in the center of the window and how the size of an object can be controlled. Dimensions for a website are defined by px which stands for pixel rather than a typical measurement like inches or centimeters. The website can be thought of as a grid of pixels, so the height of 200px means that the image will take up 200 pixels vertically within the grid. 
+
+    .tree {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      border: 2px white solid;
+        background-color: #8c3131;
+      text-decoration: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.5rem;
+      color: rgb(235, 235, 235);
+      margin: 30px;
+      padding: 30px;
+    }
+
+This code contains the font-family command with a list input of fonts. Not every font is available to be used by the .html file type, thus the list input of fonts allows you to define multiple fonts that you like with the order in which they are put into the list being the priority they are given in the html file. This means that the html will first try to apply the font Verdana to the site, but if it is unable to due to the version type that the user has, then the code will attempt to apply the next font within the list to the site. The margin function is also shown here and is used to define the spacing between items neighboring any objects within the .tree class type, hencewhy the input has the px unit associated with it. 
