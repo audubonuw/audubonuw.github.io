@@ -5,7 +5,7 @@ link to, and the type of content that is displayed. The site is defined as havin
 webpage and allows for you to define or reference information from other files that will be used throughout the code, in this case the styles.css which can be seen below. 
 
     <title>Audubon Society at UW-Madison</title> 
-    link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="styles.css">
 
 The body section contains the important links and images seen on the website which are organized by divisions seen as "div" in the code. Each division also has a class 
 associated with it which relates to the styles.css file that will be explained later. Once the division and it's class type have been called you would then insert whatever 
