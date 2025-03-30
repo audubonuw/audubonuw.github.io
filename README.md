@@ -3,6 +3,7 @@ INFORMATION FOR INDEX.HTML:
 The index.html file is used for making edits to the actual contents of the website. Within this file you can change the order in which items are displayed, where the items 
 link to, and the type of content that is displayed. The site is defined as having a <head> section and a <body> section. The head contains the base information for the 
 webpage and allows for you to define or reference information from other files that will be used throughout the code, in this case the styles.css which can be seen below. 
+
     <title>Audubon Society at UW-Madison</title> 
   
     link rel="stylesheet" href="styles.css"
